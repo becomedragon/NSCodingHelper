@@ -15,6 +15,8 @@
 		21EC44C61B9D2DEA009904F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC44C51B9D2DEA009904F9 /* Images.xcassets */; };
 		21EC44C91B9D2DEA009904F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21EC44C71B9D2DEA009904F9 /* LaunchScreen.xib */; };
 		21EC44D51B9D2DEA009904F9 /* propertyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EC44D41B9D2DEA009904F9 /* propertyTests.m */; };
+		21EC44E01B9D2E0F009904F9 /* property.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EC44DF1B9D2E0F009904F9 /* property.m */; };
+		21EC44E31B9D6FEE009904F9 /* CXLCodingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EC44E21B9D6FEE009904F9 /* CXLCodingHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		21EC44CE1B9D2DEA009904F9 /* propertyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = propertyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC44D31B9D2DEA009904F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21EC44D41B9D2DEA009904F9 /* propertyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = propertyTests.m; sourceTree = "<group>"; };
+		21EC44DE1B9D2E0F009904F9 /* property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = property.h; sourceTree = "<group>"; };
+		21EC44DF1B9D2E0F009904F9 /* property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = property.m; sourceTree = "<group>"; };
+		21EC44E11B9D6FEE009904F9 /* CXLCodingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLCodingHelper.h; sourceTree = "<group>"; };
+		21EC44E21B9D6FEE009904F9 /* CXLCodingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLCodingHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				21EC44C71B9D2DEA009904F9 /* LaunchScreen.xib */,
 				21EC44BC1B9D2DEA009904F9 /* property.xcdatamodeld */,
 				21EC44B51B9D2DEA009904F9 /* Supporting Files */,
+				21EC44DE1B9D2E0F009904F9 /* property.h */,
+				21EC44DF1B9D2E0F009904F9 /* property.m */,
+				21EC44E11B9D6FEE009904F9 /* CXLCodingHelper.h */,
+				21EC44E21B9D6FEE009904F9 /* CXLCodingHelper.m */,
 			);
 			path = property;
 			sourceTree = "<group>";
@@ -224,6 +234,8 @@
 			files = (
 				21EC44BB1B9D2DEA009904F9 /* AppDelegate.m in Sources */,
 				21EC44BE1B9D2DEA009904F9 /* property.xcdatamodeld in Sources */,
+				21EC44E01B9D2E0F009904F9 /* property.m in Sources */,
+				21EC44E31B9D6FEE009904F9 /* CXLCodingHelper.m in Sources */,
 				21EC44C11B9D2DEA009904F9 /* ViewController.m in Sources */,
 				21EC44B81B9D2DEA009904F9 /* main.m in Sources */,
 			);

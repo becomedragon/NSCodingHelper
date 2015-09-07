@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "property.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    property *p = [[property alloc] init];
+    
+    p.boolValue = YES;
+    p.unintegValue = 2;
+    p.doubleValue = 2.0;
+    p.floatValue = 1.0;
+    p.int32Value = 1000;
+    p.int64Value = 20000;
+    p.integValue = 300000;
+    p.stringValue= @"hello";
+    p.dictionValue = @{@"hello":@"world"};
+    p.dataValue = [NSData data];
+    p.numberValue = @(345);
+    
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:p];
+    property *pp = [NSKeyedUnarchiver unarchiveObjectWithData:data];
 }
 
 - (void)didReceiveMemoryWarning {
